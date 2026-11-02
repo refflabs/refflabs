@@ -1,5 +1,9 @@
 # Hi there, I'm Reffael Evindonta 👋
 
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=refflabs&color=eb6f92&style=flat-square&label=Profile+Views" alt="Profile Views" />
+</p>
+
 ### 👨‍💻 About Me
 - 🎓 **Software Engineering Student** at **Politeknik Caltex Riau** (Pekanbaru, Riau).
 - 🚀 Passionate about building **Web Applications**, **AI Solutions**, and **WhatsApp Bots**.
@@ -37,8 +41,6 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=refflabs&show_icons=true&theme=rose_pine&hide_border=true" alt="Reffael's GitHub Stats" />
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=refflabs&layout=compact&theme=rose_pine&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=refflabs&show_icons=true&theme=rose_pine" alt="Reffael's GitHub Stats" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=refflabs&layout=compact&theme=rose_pine" alt="Top Languages" />
 </p>
