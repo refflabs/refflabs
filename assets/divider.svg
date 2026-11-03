@@ -1,7 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="24" viewBox="0 0 1280 24" role="presentation">
-  <line x1="0" y1="12" x2="590" y2="12" stroke="#26233a" stroke-width="2"/>
-  <circle cx="616" cy="12" r="4" fill="#eb6f92"/>
-  <circle cx="640" cy="12" r="4" fill="#f6c177"/>
-  <circle cx="664" cy="12" r="4" fill="#9ccfd8"/>
-  <line x1="690" y1="12" x2="1280" y2="12" stroke="#26233a" stroke-width="2"/>
+  <style>
+    .p{transform-box:fill-box;transform-origin:center;animation:pulse 1.8s ease-in-out infinite}
+    .p2{animation-delay:.3s}.p3{animation-delay:.6s}
+    @keyframes pulse{0%,100%{transform:scale(1);opacity:.6}50%{transform:scale(1.6);opacity:1}}
+    .line{stroke-dasharray:6 10;animation:flow 2.4s linear infinite}
+    .r{animation-direction:reverse}
+    @keyframes flow{to{stroke-dashoffset:-32}}
+  </style>
+  <line class="line r" x1="0" y1="12" x2="590" y2="12" stroke="#403d52" stroke-width="2"/>
+  <circle class="p" cx="616" cy="12" r="4" fill="#eb6f92"/>
+  <circle class="p p2" cx="640" cy="12" r="4" fill="#f6c177"/>
+  <circle class="p p3" cx="664" cy="12" r="4" fill="#9ccfd8"/>
+  <line class="line" x1="690" y1="12" x2="1280" y2="12" stroke="#403d52" stroke-width="2"/>
 </svg>
