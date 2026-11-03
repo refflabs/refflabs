@@ -1,0 +1,30 @@
+name: Generate contribution snake
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-rose-pine.svg?palette=github-dark&color_snake=#ebbcba&color_dots=#1f1d2e,#31748f,#9ccfd8,#c4a7e7,#eb6f92&color_background=#191724
+
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "chore: perbarui animasi kontribusi"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

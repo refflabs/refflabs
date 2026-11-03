@@ -42,7 +42,7 @@
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=refflabs&theme=rose-pine&hide_border=true" alt="Contribution streak" />
+  <img src="https://raw.githubusercontent.com/refflabs/refflabs/output/snake-rose-pine.svg" alt="Contribution snake" width="100%" />
 </p>
 
 <img src="assets/divider.svg" width="100%" alt="" />
